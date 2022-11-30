@@ -16,6 +16,6 @@ describe('helloWorld', function() {
 
 describe('sayHello', function(){
     it('should be a defined function', function(){
-        expect(sayHello()).toBe("string");
+        expect(typeof sayHello).toBe('function');
     })
 })
